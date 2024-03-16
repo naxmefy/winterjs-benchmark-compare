@@ -6,6 +6,12 @@ WinterJS said 150k per sec.
 
 I tried some benchmarks myself.
 
+## Test Command
+
+```bash
+wrk -t12 -c400 -d10s http://127.0.0.1:8080
+```
+
 ## My Mashine
 
 - **Device**: MacBook Pro (13-inch, M1, 2020)
